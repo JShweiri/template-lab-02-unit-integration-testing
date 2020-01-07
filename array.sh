@@ -11,5 +11,7 @@ do
         echo "Test passed"
     else
         echo "Test failed"
+        echo "Expected: \"${input}\""
+        echo "Received: \"${output}\""
     fi
 done
